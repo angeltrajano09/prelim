@@ -11,6 +11,74 @@ body{
    margin: 0px;
    padding: 0px;
    background-color:blue;
+   
+   background-image: url('img/blue.jpg');
+   background-attachment: fixed;
+   color: #000305;
+   font-size:87.5%;
+   font-family: Arial, 'Lucida Sans Unicode';
+   text-align:left;
+}
+
+.logo{
+   font-family: Arial, Helvetica,sans-serif;
+   font-size:35px;
+   text-transform: uppercase;
+   font-weight:bold;
+   color: #FFFFFF;
+   margin-left:0px;
+   padding-top:20px;
+   padding-left:20px;
+   text-align: left;
+   letter-spacing: -2px;
+   width: 100%;
+  
+}
+
+.punchline{
+  font-family: Arial, Helvetica,sans-serif;  
+  font-size:14px;
+  font-weight:bold;
+  color: #C69C6D;
+  padding-left:20px;
+  padding-top:-5px;
+}
+a{
+      text-decoration:none;
+}
+
+a:link, a:visited{
+    color: #FF8C00;
+}
+
+a:hover, a:active{
+   background-color: #FF8C00;
+   color:white;
+}
+
+.body{
+    margin: 0 auto;
+    width:70px;
+    clear:both;
+    
+}
+
+.mainheader img{
+    width:100%;
+    height:auto;
+    margin-top:2%;
+    margin-bottom: 0;
+    
+}
+
+.mainheader nav{
+    background-color: #2F4F4F;
+      height:40px;
+      border-radius:5px;
+      -moz-border-radius: 5px;
+      -webkit-border-radius:5px;
+      margin-bottom:0;
+      margin-top:0;
 }
 
 #wrapper{
@@ -33,13 +101,12 @@ body{
    padding: 0px; 
    background-color: white;
 }
- #footer{
+#content1{
    text-align: center;
-   height:50px;
-   margin-top: 5px;
+   margin: 0px;
    padding: 0px; 
-   background-color: darkgreen;
-}   
+   background-color: white;
+} 
 #logo{
    text-align: center;
    height:60px;
@@ -58,53 +125,56 @@ body{
 #topcontent{
    text-align: center;
    height:210px;
-   margin-bottom: : 5px;
-   padding: 0px; 
+   margin-bottom: 5px;
+   margin-right: 5px;
+   padding: 5px; 
    background-color: white;
-   float:top-left;
+   float:left;
 }     
 
    
 #bottomcontent{
    text-align: center;
    height:210px;
-   margin-bottom: : 5px;
-   padding: 0px; 
+   margin-bottom: 5px;
+   margin-right: 5px;
+   padding: 5x; 
    background-color: white;
-   float:bottom-left;
+   float:left;
 }    
 #top-sidebar{
    text-align: center;
    height:100px;
-   margin-top: : 5px;
-   margin-bottom: : 5px;
-   margin-left: : 5px;
-   margin-right: : 5px;
-   padding: 0px; 
+   margin-top: 5px;
+   margin-left: 5px;
+   padding: 5px; 
    background-color:white;
    float:right;
 }    
 #middle-sidebar{
    text-align: center;
    height:150px;
-   margin-top: : 5px;
-   margin-bottom: : 5px;
-   margin-left: : 5px;
-   margin-right: : 5px;
-   padding: 0px; 
+   margin-top:  5px;
+   margin-left:  5px;
+   padding: 5px; 
    background-color: white;
-   float:middle-left;
+   float:right;
 }   
 #bottom-sidebar{
    text-align: center;
    height:110px;
-   margin-top: : 5px;
-   margin-bottom: : 5px;
-   margin-left: : 5px;
-   margin-right: : 5px;
-   padding: 0px; 
+   margin-top: 5px;
+   margin-left: 5px;
+   padding: 5px; 
    background-color: white;
-   float:bottom-left;
+   float:right;
+}   
+ #footer{
+   text-align: center;
+   height:50px;
+   margin-top: 5px;
+   padding: 0px; 
+   background-color: darkgreen;
 }   
    
 -->
@@ -122,6 +192,8 @@ body{
        <div id="content">
            <div id="topcontent">topcontent</div>
            <div id="bottomcontent">bottomcontent</div>
+        </div>   
+        <div id="content1">
            <div id="top-sidebar">top-sidebar</div>
            <div id="middle-sidebar">middle-sidebar</div>
            <div id="bottom-sidebar">bottom-sidebar</div>

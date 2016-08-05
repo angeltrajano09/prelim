@@ -146,6 +146,7 @@ a:hover, a:active {
     -webkit-border-radius: 5px;
     margin: 0 0 1% 1%;
     padding: 2% 3%;
+    
 }
 
 .post-info{
@@ -193,6 +194,16 @@ a:hover, a:active {
     text-align: left;
 }
 
+.aboutcontent{
+   width:98%;
+    float:left;
+    background-color:#fff;
+    border-radius:5px;
+    -moz-border-radius:5px;
+    -webkit-border-radius: 5px;
+   padding: 1% 1%;
+    margin-bottom:1%; 
+}
 
 
 
